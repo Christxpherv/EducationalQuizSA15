@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+#introduction {
+    padding: 40px 20px;
+}
+
+#introduction h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#quiz {
+    padding: 40px 20px;
+}
+
+#quiz h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#quiz article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#quiz form {
+    margin-bottom: 20px;
+}
+
+#quiz input[type="radio"] {
+    margin-right: 10px;
+}
+
+#quiz button[type="submit"],
+#quiz button[type="button"] {
+    background-color: #2c3e50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#quiz button[type="submit"]:hover,
+#quiz button[type="button"]:hover {
+    background-color: #34495e;
+}
+
+#feedback {
+    font-weight: bold;
+}
+
+#contact {
+    padding: 40px 20px;
+}
+
+#contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#contact form button[type="submit"] {
+    background-color: #2c3e50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact form button[type="submit"]:hover {
+    background-color: #34495e;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #introduction h2,
+    #quiz h2,
+    #contact h2 {
+        font-size: 24px;
+    }
+
+    #introduction p {
+        font-size: 16px;
+    }
+
+    #quiz article {
+        padding: 20px;
+    }
+
+    #quiz button[type="submit"],
+    #quiz button[type="button"],
+    #contact form button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #introduction h2,
+    #quiz h2,
+    #contact h2 {
+        font-size: 20px;
+    }
+
+    #introduction p {
+        font-size: 14px;
+    }
+
+    #quiz article {
+        padding: 15px;
+    }
+
+    #quiz button[type="submit"],
+    #quiz button[type="button"],
+    #contact form button[type="submit"] {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

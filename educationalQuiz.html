@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Educational Quiz</h1>
+    </header>
+
+    <section id="introduction">
+        <article>
+            <h2>Welcome to the Educational Quiz!</h2>
+            <p>This quiz is designed to test your knowledge in geography and book authors. Hopefully you were able to pay attention in elementary school!</p>
+        </article>
+    </section>
+
+    <section id="quiz">
+        <article>
+            <h2 id="questionTitle">Question 1</h2>
+            <p id="question">What is the capital of France?</p>
+            <form id="quizForm">
+                <input type="radio" id="paris" name="capital" value="paris">
+                <label for="paris">Paris</label><br>
+                <input type="radio" id="london" name="capital" value="london">
+                <label for="london">London</label><br>
+                <input type="radio" id="berlin" name="capital" value="berlin">
+                <label for="berlin">Berlin</label><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p id="feedback"></p>
+            <button id="nextButton" style="display: none;">Next</button>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Please feel free to put your information in the form below 
+            and I will get back to you as soon as possible!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Christopher Valle's quiz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
